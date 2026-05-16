@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import LifecycleA from './components/LifecycleA'
+import FragmentDemo from './components/FragmentDemo'
 
 function App() {
   return (
     <div className="App">
-        <LifecycleA />
+        <FragmentDemo />
     </div>
   )
 }
