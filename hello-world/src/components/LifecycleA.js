@@ -33,12 +33,18 @@ class LifecycleA extends Component{
         console.log('LifeCycleA - componentDidUpdate method')
     }
 
+    changeState = () => {
+        this.setState({
+            name: 'Victopia'
+        })
+    }
 
     render () {
         console.log('LifecycleA - render() method')
         return (
             <div>
                 <h1>LifecycleA Styling</h1>
+                <button onChange={this.changeState}>Change State</button>
                 <LifecycleB />
             </div>
         )
