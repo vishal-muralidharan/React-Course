@@ -5,7 +5,10 @@ const Hello = () => {
     //    <h1>Hello, Vishal</h1>
     // )
 
-    return React.createElement('div', null, 'Hello, Vishal')
+    return React.createElement(
+        'div', 
+        {id: 'hello', className: 'dummy'}, 
+        React.createElement('h1', null, 'Hello, Vishal'))
 }
 
 export default Hello
