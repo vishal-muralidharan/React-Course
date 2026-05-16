@@ -8,7 +8,13 @@
             message: "Hello"
         }
 
-        this.clickHandler = this.clickHandler.bind(this)
+        // this.clickHandler = this.clickHandler.bind(this)
+
+        this.clickHandler = () => {
+            this.setState({
+                message: "Goodbye"
+            })
+        }
     }
  
     clickHandler() {
@@ -23,6 +29,7 @@
             <div>
                 <div>{this.state.message}</div>
                 { /* <button onClick={this.clickHandler.bind(this)}>Click</button> */ }
+                { /* <button onClick={() => this.clickHandler()}>Click</button> */ }
 
                 <button onClick={this.clickHandler}>Click</button>
             </div>
