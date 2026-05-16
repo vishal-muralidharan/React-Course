@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Table from './components/Table'
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   return (
     <div className="App">
-        <Table />
+        <ParentComponent />
     </div>
   )
 }
