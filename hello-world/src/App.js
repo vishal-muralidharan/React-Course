@@ -6,7 +6,7 @@ import HoverCounter from './components/18. Higher Order Components/HoverCounter'
 function App() {
   return (
     <div className="App">
-      <ClickCounter />
+      <ClickCounter name="Vishal"/>
       <HoverCounter />
     </div>
   )
