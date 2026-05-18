@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 import F from './F'
+import UserContext from './UserContext'
 
 class E extends Component {
+    static contextType = UserContext
+    
     render() {
         return (
             <div>
-                <h3>E Component</h3>
+                Component E Context: {this.context}
                 <F />
             </div>
         )
