@@ -1,26 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import ClickCounterTwo from './components/19. Render Props/ClickCounterTwo'
-import HoverCounterTwo from './components/19. Render Props/HoverCounterTwo'
-import User from './components/19. Render Props/User'
-import Counter from './components/19. Render Props/Counter';
+import A from './components/20. Context/A'
+import B from './components/20. Context/B'
+import C from './components/20. Context/C'
+import {UserProvider} from './components/20. Context/UserContext'
 
 function App() {
     return (
         <div className="App">
-            <Counter 
-                render={(count, incrementCount) => (
-                  <ClickCounterTwo count={count} incrementCount={incrementCount} />
-                )} 
-            />
-            <Counter 
-                render={(count, incrementCount) => (
-                  <HoverCounterTwo count={count} incrementCount={incrementCount} />
-                )} 
-            />
-            {/* <ClickCounterTwo />
-            <HoverCounterTwo />
-            <User render={(isLoggedIn) => isLoggedIn ? "Vishal" : "Guest"}/> */}
+            <UserProvider value="Vishal">
+                <C/>
+            </UserProvider>
+            
         </div>
     )
 }
