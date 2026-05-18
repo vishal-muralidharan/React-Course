@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import ClickCounter from './components/ClickCounter'
-import HoverCounter from './components/HoverCounter'
+import ClickCounter from './components/18. Higher Order Components/ClickCounter'
+import HoverCounter from './components/18. Higher Order Components/HoverCounter'
 
 function App() {
   return (
