@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import FocusInput from './components/FocusInput'
+import FrParentInput from './components/FrParentInput'
 
 function App() {
   return (
     <div className="App">
-        <FocusInput />
+        <FrParentInput />
     </div>
   )
 }
