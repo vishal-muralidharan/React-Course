@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import DataFetching from './components/2. useEffect Hook/DataFetching';
+import CounterOne from './components/CounterOne';
 
 function App() {
     return (
         <div className="App">
-            <DataFetching />
+            <CounterOne />
         </div>
     );
 }
