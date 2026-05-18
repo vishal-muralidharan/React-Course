@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import DataFetching from './components/DataFetching';
+import DataFetching from './components/2. useEffect Hook/DataFetching';
 
 function App() {
     return (
