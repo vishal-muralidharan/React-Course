@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Hero from './components/Hero'
-import ErrorBoundary from './components/ErrorBoundary'
+import Hero from './components/17. Error Boundaries/Hero'
+import ErrorBoundary from './components/17. Error Boundaries/ErrorBoundary'
 
 function App() {
   return (
