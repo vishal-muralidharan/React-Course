@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import ClickCounterTwo from './components/ClickCounterTwo'
-import HoverCounterTwo from './components//HoverCounterTwo'
-import User from './components//User'
-import Counter from './components/Counter';
+import ClickCounterTwo from './components/19. Render Props/ClickCounterTwo'
+import HoverCounterTwo from './components/19. Render Props/HoverCounterTwo'
+import User from './components/19. Render Props/User'
+import Counter from './components/19. Render Props/Counter';
 
 function App() {
     return (
