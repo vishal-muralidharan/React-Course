@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+/* import React, { useContext } from 'react'
 import { CountContext } from '../../App'
 
 function F() {
@@ -13,4 +13,4 @@ function F() {
     )
 }
 
-export default F
+export default F */
