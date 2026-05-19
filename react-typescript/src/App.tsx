@@ -1,5 +1,5 @@
 import './App.css';
-import { Container } from './components/Container/index';
+import { Container } from './components/index';
 
 function App() {
     const containerStyles = {
