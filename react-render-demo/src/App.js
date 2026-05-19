@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Parent from './components/4. Parent and Child/Parent';
+import { GrandParent } from './components/5. Optimization/GrandParent';
 
 function App() {
     return (
         <div className="App">
-            <Parent />
+            <GrandParent />
         </div>
     );
 }
