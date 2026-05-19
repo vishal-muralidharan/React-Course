@@ -1,8 +1,8 @@
 import React from 'react'
-import useCounter from '../hooks/useCounter'
+import useCounter from '../../hooks/useCounter'
 
-function CounterTwo() {
-    const [count, increment, decrement, reset] = useCounter(10)
+function CounterOne() {
+    const [count, increment, decrement, reset] = useCounter()
 
     return (
         <div>
@@ -14,4 +14,4 @@ function CounterTwo() {
     )
 }
 
-export default CounterTwo
+export default CounterOne

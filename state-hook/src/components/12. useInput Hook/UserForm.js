@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import useInput from '../hooks/useInput'
+import useInput from '../../hooks/useInput'
 
 function UserForm() {
     const [firstName, bindFirstName, resetFN] = useInput('')
