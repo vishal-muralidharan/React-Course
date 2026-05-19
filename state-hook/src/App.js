@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ParentComponent from './components/7. useCallback Hook/ParentComponent';
+import Counter from './components/Counter';
 
 function App() {
     return (
         <div>
-            <ParentComponent />
+            <Counter />
         </div>
     );
 }
