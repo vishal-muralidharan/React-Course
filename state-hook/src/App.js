@@ -1,11 +1,11 @@
 import React, {useReducer} from 'react';
 import './App.css';
-import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/6. useReducer Fetch Data/DataFetchingTwo';
 
 function App() {
     return (
         <div>
-            <DataFetchingOne />
+            <DataFetchingTwo />
         </div>
     );
 }
