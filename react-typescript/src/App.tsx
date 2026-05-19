@@ -1,17 +1,17 @@
 import './App.css';
-import { Button } from './components/Button';
-import { Input } from './components/Input';
-
+import { Container } from './components/Container/index';
 
 function App() {
-    return (
-      <div className="App">
-          <Button handleClick={(event, id) => {
-              console.log('Button Clicked!', event)
-          }}/>
+    const containerStyles = {
+        border: '1px solid #ccc',
+        padding: '12px',
+        marginTop: '16px'
+    };
 
-          <Input value='' handleChange={(event) => console.log(event)}/>
-      </div>
+    return (
+        <div className="App">
+            <Container styles={containerStyles} />
+        </div>
     );
 }
 
