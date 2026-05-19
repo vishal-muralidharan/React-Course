@@ -1,5 +1,6 @@
 import './App.css';
-import { Container } from './components/index';
+import { Container } from './components/1. Props/index';
+import { LoggedIn } from './components/2. Hooks/LoggedIn';
 
 function App() {
     const containerStyles = {
@@ -10,7 +11,7 @@ function App() {
 
     return (
         <div className="App">
-            <Container styles={containerStyles} />
+            <LoggedIn />
         </div>
     );
 }
