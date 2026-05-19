@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { ObjectUseState } from './components/3. Immutable State/ObjectUseState';
+import Parent from './components/4. Parent and Child/Parent';
 
 function App() {
     return (
         <div className="App">
-            <ObjectUseState />
+            <Parent />
         </div>
     );
 }
