@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { UseReducer } from './components/2. UseReducer/UseReducer';
+import { ObjectUseState } from './components/3. Immutable State/ObjectUseState';
 
 function App() {
     return (
         <div className="App">
-            <UseReducer />
+            <ObjectUseState />
         </div>
     );
 }
