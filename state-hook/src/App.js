@@ -1,11 +1,11 @@
-import React, {useReducer} from 'react';
+import React from 'react';
 import './App.css';
-import DataFetchingTwo from './components/6. useReducer Fetch Data/DataFetchingTwo';
+import ParentComponent from './components/7. useCallback Hook/ParentComponent';
 
 function App() {
     return (
         <div>
-            <DataFetchingTwo />
+            <ParentComponent />
         </div>
     );
 }
