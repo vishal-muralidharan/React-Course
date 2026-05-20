@@ -11,7 +11,13 @@ const dataProvider = jsonServerProvider("http://localhost:3000");
 
 const App = () => (
   <Admin dataProvider={dataProvider}>
-      <Resource name="categories" list={CategoryList} edit={CategoryEdit} create={CategoryCreate} />
+      <Resource 
+        name="categories" 
+        list={CategoryList} 
+        edit={CategoryEdit} 
+        create={CategoryCreate} 
+        recordRepresentation="name"
+      />
       <Resource name="posters" list={PosterList} edit={PosterEdit} create={PosterCreate} />
   </Admin>
 );
