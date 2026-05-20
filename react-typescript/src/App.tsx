@@ -1,10 +1,12 @@
 import './App.css'
-import { Toast } from './components/9. Template Literals/Toast'
+import { CustomButton } from './components/10. HTML/Button'
 
 function App() {
   return (
     <div className='App'>
-        <Toast position='center-bottom' />
+        <CustomButton variant='primary'>
+            Primary Button
+        </CustomButton>
     </div>
   )
 }
