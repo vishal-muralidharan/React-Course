@@ -1,13 +1,39 @@
-import './App.css';
-import { Private } from './components/6. Auth/Private';
-import { Profile } from './components/6. Auth/Profile';
+import { List } from './components/7. Generics/List'
+import './App.css'
 
 function App() {
-    return (
-        <div className="App">
-            <Private isLoggedIn={true} Component={Profile}/>
-        </div>
-    );
+  return (
+    <div className='App'>
+        <List 
+            items={['Batman', 'Superman', 'Wonder Woman']}
+            onClick={(item) => console.log(item)}
+        />
+        
+        <List 
+            items={[1, 2, 3]}
+            onClick={(item) => console.log(item)}
+        />
+
+        <List
+            items={[
+                {
+                    first: 'Bruce',
+                    last: 'Wayne',
+                },
+                {
+                    first: 'Clark',
+                    last: 'Kent',
+                },
+                {
+                    first: 'Princess',
+                    last: 'Diana',
+                },
+            ]}
+            onClick={(item) => console.log(item)}
+        />
+
+    </div>
+  )
 }
 
-export default App;
+export default App
