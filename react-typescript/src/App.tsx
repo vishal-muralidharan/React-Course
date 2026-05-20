@@ -1,14 +1,13 @@
 import './App.css';
-import { Counter } from './components/2. Hooks/Counter';
-import { Box } from './components/3. Context/Box';
-import { ThemeContextProvider } from './components/3. Context/ThemeContext';
+import { User } from './components/3. Context/User';
+import { UserContextProvider } from './components/3. Context/UserContext';
 
 function App() {
     return (
         <div className="App">
-            <ThemeContextProvider>
-                <Box />
-            </ThemeContextProvider> 
+            <UserContextProvider>
+                <User />
+            </UserContextProvider>
         </div>
     );
 }
